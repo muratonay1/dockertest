@@ -1,11 +1,9 @@
-import flask
+from flask import Flask
+app = Flask(__name__)
 
-app = flask.Flask(__name__)
-app.config["DEBUG"] = False
+@app.route('/')
+def hello_world():
+	return 'Hello World'
 
-
-@app.route('/', methods=['GET'])
-def home():
-    return "<h1>python api test with docker</p>"
-
-app.run()
+if __name__ == '__main__':
+	app.run(host="0.0.0.0", debug=True)
