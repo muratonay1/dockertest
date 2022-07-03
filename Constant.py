@@ -1,4 +1,4 @@
-DB_PATH="https://retestmurat-default-rtdb.firebaseio.com/"
+DB_PATH="FİREBASE LINK"
 
 # DB COLLECTION DECLARE
 DB_PATH_RECORDS="/records"
