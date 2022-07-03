@@ -1,1 +1,8 @@
+requests
+gcloud
+sseclient
+pycrypto
+requests-toolbelt
+python_jwt
 flask
+firebase
